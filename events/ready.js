@@ -9,7 +9,7 @@ module.exports = {
         const statuses = [
             {
                 type: ActivityType.Watching,
-                name: 'discord.gg/sfrr',
+                name: 'discord.gg/SFRR.',
                 status: 'online'
             }
         ];
