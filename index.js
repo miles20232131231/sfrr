@@ -38,7 +38,7 @@ const handleCommands = async () => {
   }
 
   const clientId = "1242613284549558402"; 
-  const guildId = "1277470399952850995, 1284540456432042164"; 
+  const guildId = "1277470399952850995"; 
   const rest = new REST({ version: "9" }).setToken(token);
 
   try {
