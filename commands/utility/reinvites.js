@@ -10,7 +10,7 @@ module.exports = {
         .setRequired(true)),
 
   async execute(interaction) {
-    const staffRoleId = '1277475295372513385';
+    const staffRoleId = '1279933324298817608';
     const logChannelId = '1279642823951646760'; // Channel ID for logging
 
     if (!interaction.member.roles.cache.has(staffRoleId)) {
