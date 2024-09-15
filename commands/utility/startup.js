@@ -11,7 +11,7 @@ module.exports = {
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageRoles), // Only staff can execute this command
 
     async execute(interaction) {
-        const staffRoleId = '1277475295372513385'; // Staff role ID
+        const staffRoleId = '1279933324298817608'; // Staff role ID
 
         if (!interaction.member.roles.cache.has(staffRoleId)) {
             await interaction.reply({ content: 'You do not have permission to use this command.', ephemeral: true });
