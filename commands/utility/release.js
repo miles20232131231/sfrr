@@ -41,7 +41,7 @@ module.exports = {
     const frpSpeeds = interaction.options.getString('frp-speeds');
     const driftingStatus = interaction.options.getString('drifting-status');
     const link = interaction.options.getString('link');
-    const staffRoleId = '1277475295372513385';
+    const staffRoleId = '1279933324298817608';
 
     const embed = new EmbedBuilder()
       .setTitle('Southwest Florida Roleplay Realm | Session Released')
