@@ -10,7 +10,7 @@ module.exports = {
         .setRequired(true)),
   async execute(interaction) {
     try {
-      const staffRoleId = '1277475295372513385'; // Only users with this role can execute the command
+      const staffRoleId = '1279933324298817608'; // Only users with this role can execute the command
 
       // Check if the user has the required role
       if (!interaction.member.roles.cache.has(staffRoleId)) {
