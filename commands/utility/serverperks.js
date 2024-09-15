@@ -6,7 +6,7 @@ module.exports = {
         .setDescription('Displays server perks with a dropdown menu'),
 
     async execute(interaction) {
-        const staffRoleId = '1277475295372513385'; // Replace with your actual staff role ID
+        const staffRoleId = '1279933324298817608'; // Replace with your actual staff role ID
         const member = interaction.member;
 
         // Check if the user has the staff role
