@@ -11,7 +11,7 @@ module.exports = {
     
     async execute(interaction) {
         // Check if the user has the staff role
-        const staffRoleId = '1277475295372513385';
+        const staffRoleId = '1279933324298817608';
         const logChannelId = '1279642823951646760'; // Log channel ID
 
         if (!interaction.member.roles.cache.has(staffRoleId)) {
