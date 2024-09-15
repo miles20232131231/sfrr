@@ -6,7 +6,7 @@ module.exports = {
     .setDescription('Notifies that staff, boosters, emergency services, and content creators can join.'),
   
   async execute(interaction) {
-    const staffRoleId = '1277475295372513385'; // Replace with your actual staff role ID
+    const staffRoleId = '1279933324298817608'; // Replace with your actual staff role ID
     const logChannelId = '1279642823951646760'; // Replace with your log channel ID
 
     if (!interaction.member.roles.cache.has(staffRoleId)) {
